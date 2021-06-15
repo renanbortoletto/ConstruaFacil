@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="unitTests.TestaCalc" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-06-15T19:35:52" hostname="MacBook-Air-de-Renan.local" time="0.014">
+<testsuite name="unitTests.TestaCalc" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-06-15T19:50:17" hostname="MacBook-Air-de-Renan.local" time="0.014">
   <properties/>
-  <testcase name="testarDividirDoisNumeros" classname="unitTests.TestaCalc" time="0.014">
-    <failure message="java.lang.AssertionError: expected [NaN] but found [0.0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [NaN] but found [0.0]
+  <testcase name="testarDividirDoisNumerosERROR_2" classname="unitTests.TestaCalc" time="0.014">
+    <failure message="java.lang.AssertionError: expected [Infinity] but found [0.0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Infinity] but found [0.0]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEquals(Assert.java:698)
+	at org.testng.Assert.assertEquals(Assert.java:701)
 	at org.testng.Assert.assertEquals(Assert.java:712)
-	at unitTests.TestaCalc.testarDividirDoisNumeros(TestaCalc.java:59)
+	at unitTests.TestaCalc.testarDividirDoisNumerosERROR_2(TestaCalc.java:123)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -64,7 +64,7 @@
 </failure>
   </testcase>
   <system-out><![CDATA[O resultado Esperado e 0.0
- O resultado Atual foi NaN
+ O resultado Atual foi Infinity
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
